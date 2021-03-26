@@ -1,0 +1,43 @@
+<!-- 
+    Instructions:
+        Fetch data for 10 users & display data of each user in a single card container.
+        The user card containers shall be 5 across desktop landscape orientation, & 2 across for mobile portrait orientation.
+        
+        *** Must use vanilla JS.
+        * Use semantic HTML5 markup (HEADER, FOOTER, MAIN, ASIDE, NAV, SECTION, ARTICLE, DIV, SPAN, etc.) as appropriate.
+        * Bonus points for using Flexbox for the layout.
+
+    User endpoint: GET https://jsonplaceholder.typicode.com/users (must use fetch https://github.com/github/fetch)
+    Required card data:
+        id (store on the container as an attribute),
+        name,
+        website (make it a clickable link),
+        company.name,
+        company.catchPhrase
+
+    Build the application code using the provided package.json (as is.)
+ -->
+
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Users</title>
+        <!-- External css stylesheet -->
+        <link rel="stylesheet" href="./users.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Users</h1>
+        </header>
+        <section id='users-section'>
+            <!-- Individual Cards will be added here -->
+        </section>
+        <script src="build/app.bundle.js"></script>
+    </body>
+    </html>
+    
