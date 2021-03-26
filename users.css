@@ -24,6 +24,9 @@ section {
 }
 
 section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #5A5475;
     color: #F8F8F2;
     padding: 20px;
